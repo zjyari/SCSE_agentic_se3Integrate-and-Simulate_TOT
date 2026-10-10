@@ -1,0 +1,10 @@
+{
+  "strategy": "Navigate toward the goal by checking available directions and moving only when safe.",
+  "decisions": [
+    "if the goal is ahead and the front path is clear, move FORWARD",
+    "if the goal is to the left and the left path is clear, turn LEFT and move FORWARD",
+    "if the goal is to the right and the right path is clear, turn RIGHT and move FORWARD",
+    "if no safe direction is available, STOP"
+  ],
+  "stop_condition": "when no safe direction is available for movement"
+}

@@ -1,0 +1,11 @@
+{
+  "goal": "Navigate toward the goal while avoiding blocked directions and stopping when no safe direction is available.",
+  "allowed_actions": [
+    "FORWARD",
+    "LEFT",
+    "RIGHT",
+    "STOP"
+  ],
+  "safe_stop": true,
+  "avoid.obstacles": true
+}
